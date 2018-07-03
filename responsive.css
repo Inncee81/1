@@ -1,0 +1,241 @@
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 767px) {
+	body {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	h1 {
+		font-size: 32px;
+		line-height: 36px;
+		margin-bottom: 15px;
+	}
+	h2 {
+		font-size: 22px;
+		line-height: 26px;
+		margin-bottom: 10px;
+	}
+	h3 {
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 10px;
+	}
+	p {
+		margin: 0 0 15px;
+	}
+	ul {
+		margin: 0 0 15px;
+	}
+	.txtfield,
+	.txtarea{
+		padding-left: 15px;
+	}
+	.selectBx {
+		padding-left: 12px;
+	}	
+	.col {
+		width: 100%;
+		padding: 0;
+	}
+	
+	/*** Begin header ***/
+	.header-container {
+		padding: 15px 20px;
+	}
+	.logo {
+		clear: both;
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+	}
+	.top-right {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		padding-top: 10px;
+	}
+	.top-right ul {
+		float: none;
+		list-style: none;
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+	.top-right li {
+		float: none;
+		padding: 0 2px 0 0;
+		display: inline;
+	}
+
+
+	/*** begin content ***/
+	.body-content {
+		padding: 30px 20px;
+	}
+	.bottom-content-in {
+		padding: 30px 0;
+	}
+	.content-left,
+	.content-right {
+		float: none;
+		clear: both;
+		width: 100%;
+	}
+	.content-left {
+		padding-bottom: 30px;
+	}
+	
+	/*** begin ***/
+	.speak-to-us {
+		height: 40px;
+		font-size: 22px;
+		padding-top: 6px;
+		margin-top: 10px;
+	}
+	.member-content {
+		padding: 0 20px;
+	}
+	.member-img .row {
+		max-width: 100%;
+	}
+	.contact-title {
+		padding: 20px 0 0;
+	}
+	.contact-form {
+		margin-bottom: 20px;
+	}
+	.contact-form,
+	.contact-info {
+		padding: 0;
+		width: 100%;
+	}
+	.contact-form span,
+	.contact-form .selectBx {
+		float: none;
+		clear: both;
+		width: 100%;
+	}
+	.contact-form span {
+		padding-bottom: 5px;
+	}
+	.contact-info {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.contact-info .row {
+		padding-bottom: 25px;
+	}
+	.contact-info .mail {
+		background-position: 0 4px;
+	}
+	.contact-info .phone {
+		background-position: 0 0px;
+	}
+	.member-info {
+		padding-bottom: 5px;
+	}
+	.clickImg {
+		padding: 0 20px;
+	}
+	
+	/*** Begin footer ***/
+	footer {
+		min-height: 100px;
+		position: relative;
+		bottom: auto;
+		left: auto;
+	}
+	.footer-content {
+		padding: 10px 20px;
+	}
+	.footer-content .col {
+		width: 100%;
+		padding: 5px 0;
+	}
+	.footer-content .col a {
+		float: left;
+		word-break:break-all;
+	}
+	.social-icon {
+		padding-top: 10px;
+	}
+
+}
+
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	h1 {
+		font-size: 32px;
+		line-height: 36px;
+		margin-bottom: 15px;
+	}
+	h2 {
+		font-size: 22px;
+		line-height: 26px;
+		margin-bottom: 10px;
+	}
+	h3 {
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 10px;
+	}
+	p {
+		margin: 0 0 15px;
+	}
+	ul {
+		margin: 0 0 15px;
+	}
+	.txtfield,
+	.txtarea{
+		padding-left: 15px;
+	}
+	.selectBx {
+		padding-left: 12px;
+	}	
+	
+	.header-container {
+		padding: 15px 30px;
+	}
+	.body-content {
+		padding: 35px 30px;
+	}
+	.content-left {
+		width: 50%;
+	}
+	.content-right {
+		width: 43%;
+	}
+	
+	.member-img .row {
+		max-width: 100%;
+	}
+	
+	
+	/*** Begin footer ***/
+	.footer-content {
+		padding: 15px 30px;
+	}
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {	
+}		
+		
